@@ -308,7 +308,7 @@ class ResourceAllocationSimulator(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Deadlock Detection Simulator")
+        self.setWindowTitle("Deadlock Detection & Avoidance Simulator")
         self.setGeometry(100, 100, 900, 550)
 
         self.graph_manager = GraphManager()
